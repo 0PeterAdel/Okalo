@@ -25,33 +25,71 @@
 </head>
 <body>
     
-    <section id="Oval" class="mb-4">
+    <div class="container">
 
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+        <section id="Oval" class="mb-4" hidden>
 
-                    <canvas id="canvasOne" width="700" height="420" style="position: absolute;"></canvas>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
 
-                    <div id="OkaloHood">
+                        <canvas id="canvasOne" width="700" height="420" style="position: absolute;"></canvas>
 
-                        <div class="square">
-                            <span class="circle"></span>
-                            <span class="circle"></span>
-                            <span class="circle"></span>
+                        <div id="OkaloHood">
+
+                            <div class="square">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+
                         </div>
+                    </div>
 
+                    <h5 class="text-ligth head text-center">Okalo, Here To Assist You</h5>
+
+                    <div class="col-md mt-4 pt-4">
+                        <div class="text-center">
+                            <div id="chat-bar" class="d-flex">
+
+                                <input class="input-squere" type="text" name="chatbox" id="chatbox" placeholder="Type Here....">
+                                <button id="MIcBtn" class="glow-on-hover"><i class="bi bi-mic"></i></button>
+                                <button id="ChatBtn" class="glow-on-hover"><i class="bi bi-chat-left-text"></i></button>
+                                <button id="SettingBtn" class="glow-on-hover"><i class="bi bi-gear-wide"></i></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-1"></div>
+
+            </div>
+
+        </section>
+    
+        <!-- SiriWave -->
+        <section id="SiriWave" class="mb-4">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center align-items-center" style="height:100vh;">
+
+                            <div class="">
+                                <p class="text-center text-ligth mb-4 siri-message">"Okalo" is a smart, witty, and uniquely Egyptian AI assistant designed to be your digital companion.</p>
+                                <div id="siri-container"></div> 
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-
-                <h5 class="text-ligth head text-center">Okalo, Here To Assist You</h5>
             </div>
-            <div class="col-md-1"></div>
 
-        </div>
+        </section>
 
-    </section>
+    </div>
 
 
     <!--Jquery  -->
@@ -67,6 +105,9 @@
     <script src="assets/vendore/textillate/jquery.fittext.js"></script>
     <script src="assets/vendore/textillate/jquery.lettering.js"></script>
     <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+
+    <!-- Siri Wave -->
+    <script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
 
     <!-- linke Eel -->
     <script src="/eel.js"></script>

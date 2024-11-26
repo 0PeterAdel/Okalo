@@ -9,6 +9,30 @@ $(document).ready(function () {
         out: {
             effect: "bounceOut",
         },
+    });
 
+    // SiriWave
+    var siriWave = new SiriWave({
+        container: document.getElementById("siri-container"),
+        width: 850,
+        height: 200,
+        style: "ios9",
+        amplitude: "1",
+        speed: ".30",
+        autostart: true,
+      });
+    
+    // siri-message 
+    $('.siri-message').textillate({
+        loop: true,
+        sync: true,
+        in: {
+            effect: "fadeInUp",
+            sync: true,
+        },
+        out: {
+            effect: "fadeOutUp",
+            sync: true,
+        },
     });
 });
