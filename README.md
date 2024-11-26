@@ -15,8 +15,8 @@
 - **Backend:** Python  
 - **Frontend:** HTML, CSS, Bootstrap, JavaScript  
 - **Libraries/Frameworks:**  
-  - Flask (or any other server framework)  
-  - AI/ML tools (e.g., OpenAI APIs, if applicable)  
+  - ...........
+  - AI/ML tools (.....)  
 
 ---
 
