@@ -35,4 +35,14 @@ $(document).ready(function () {
             sync: true,
         },
     });
+
+    // MIcBtn Click event
+    $("#MIcBtn").click(function () { 
+        // Run playAssistantSound
+        eel.playAssistantSound();
+        // hidden Oval
+        $("#Oval").attr("hidden", true);
+        // SHow SiriWave
+        $("#SiriWave").attr("hidden", false);
+    });
 });
