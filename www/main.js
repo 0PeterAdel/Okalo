@@ -44,5 +44,7 @@ $(document).ready(function () {
         $("#Oval").attr("hidden", true);
         // SHow SiriWave
         $("#SiriWave").attr("hidden", false);
+ 
+        eel.takecommand()()
     });
 });

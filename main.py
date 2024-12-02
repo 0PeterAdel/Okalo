@@ -1,6 +1,7 @@
 import os
 import eel
 from engine.futures import *
+from engine.command import *
 
 eel.init("www")
 
