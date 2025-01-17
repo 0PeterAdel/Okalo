@@ -30,6 +30,23 @@ Okalo/
 │   ├── script.js      # Client-side logic
 │   ├── assets/        # Images, fonts, and other assets
 │       ├── img/
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
 │       ├── vendore/
 ├── .gitignore         # Ignored files for Git
 ├── README.md          # Project documentation
+```
+---
+
+## Install
+```
+git clone https://github.com/0PeterAdel/Okalo.git
+cd Okalo
+python -m venv envokalo
+./envokalo\Script\activate
+pip install -r requirements.txt
+python main.py
+```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
