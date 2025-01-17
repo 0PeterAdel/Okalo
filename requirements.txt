@@ -1,0 +1,12 @@
+eel
+pyttsx3
+SpeechRecognition
+PyAudio
+
+# 
+setuptools
+wheel
+playsound=1.2.2
+
+os
+

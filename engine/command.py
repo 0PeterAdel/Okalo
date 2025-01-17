@@ -11,7 +11,6 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-@eel.expose
 def takecommand():
     r = sr.Recognizer()
 
@@ -36,3 +35,16 @@ def takecommand():
     return query.lower()
 
 
+# 
+@eel.expose
+def allCommands():
+
+    query = takecommand()
+    print(query)
+
+    if 'open' in query:
+        print("running...")
+        from engine.futures import openCommand
+        openCommand(query)
+    else:
+        print("not running...")
